@@ -1,0 +1,42 @@
+html{
+	background: gray;
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header{
+	background: yellow;
+}
+main{
+	background: red;
+	width: 100%;
+}
+
+#top{
+	background: gray;
+}
+
+#top h1 {
+	color:yellow;
+	border: 3px solid darkgray;
+	padding-top: 3px;
+}
+#sidebar {
+	background:yellow;
+	width: 30%;
+	height: 500px;
+	color: darkred;
+	display:block;
+	float:left;
+	margin-right: 2em
+}
+#content {
+	float:left;
+	width 5%;
+}
+footer{
+	/*both means left and right!*/
+	text-align: center;
+	clear: both;
+}
