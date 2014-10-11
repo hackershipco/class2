@@ -46,12 +46,11 @@ body {
 }
 
 .title {
-	font-style: Italic;
-	font-family: verdana;
+	font-family: Whitney;
 }
 
 #top .header {
-	font-style: italic;
+	font-family: Whitney;
 }
 
 img {
