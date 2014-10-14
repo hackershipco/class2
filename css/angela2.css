@@ -1,0 +1,60 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#top {
+	background-color: lightgreen;
+	margin: 10px;
+	padding: 12px;
+	border-bottom: 5px solid darkblue;
+	border-right: 5px solid darkblue;
+}
+
+#top h1 {
+	color: black;
+	font-style: italic;
+}
+
+#top small {
+	color: darkgreen;
+}
+
+#sidebar {
+	float: left;
+	background: darkgreen;
+	color: white;
+	margin: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	box-shadow: 6px 6px 6px black;
+}
+
+#content img {
+	width: 40%;
+	box-shadow: 6px 6px 6px black;
+}
+
+#content {
+	background: white;
+	padding: 10px;
+	margin: 10px;
+	color: black;
+}
+
+#content h2 {
+	color: darkgreen;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+	background-color: darkblue;
+	margin: 20px;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	box-shadow: 6px 6px 6px black;
+}
