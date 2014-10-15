@@ -1,0 +1,58 @@
+/*
+[rule]{
+	property:value;
+}
+*/
+body, html{
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, sans-serif;
+}
+#top{
+	color: gray
+}
+#top h1{
+	color:purple;
+	border-bottom: 3px solid rgb(0,44,20);
+	border-left: 10px solid purple;
+	padding: 10px;
+	margin: 10px;
+	background: lightgray;
+}
+
+#sidebar{
+	background: rgb(168, 143, 168);
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+#content{
+	background: rgba(168, 143, 168, 0.74);
+	height:300px;
+	float:left;
+	width:70%;
+}
+.title{
+	font-style: italic;
+}
+.body{
+	font-style: normal;
+}
+#sidebar .title{
+	font-style: bold;
+}
+#sidebar img{
+	width: 90%;
+	margin: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+footer{
+	width: 100%;
+	clear: both;
+	background: rgba(121, 121, 237, 0.43);
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+

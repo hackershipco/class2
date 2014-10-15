@@ -1,0 +1,35 @@
+body, html{
+
+	background:white;
+	margin:0px;
+	padding:0px;
+	font-family:helvetica,arial,sans-serif;
+}
+
+#top{
+	background:white;
+}
+
+#top h1{
+	color:green;
+	border:3px solid darkgray;
+	padding:3;
+	background:pink;
+	margin:30px;
+	width:90%;
+
+}
+
+main{
+	float:left;
+	background:grey;
+	margin:30px;
+}
+
+aside{
+	height:500;
+	width:100;
+	color:red;
+	float:right;
+	margin:20px;
+}
