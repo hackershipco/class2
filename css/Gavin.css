@@ -1,0 +1,21 @@
+body{ 
+	margin: 5%;
+	padding: 50;
+	font-family: Helvetica;
+} 
+header {
+	background: gray;
+	color: white;
+	padding: 1%;
+	border-bottom: 10em, solid, white;
+	/*why doesn't the above display?*/
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 18;
+	line-height: 200%;
+	/*change spacing so larger inline gap*/
+}
+

@@ -1,0 +1,52 @@
+/* 
+general rules: 
+[rule] {
+	property: value:;
+}
+*/
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica, arial, sans-serif;
+	/* you want to put multiple default fonts in case the com doesn't
+	have it they can use the next one in line */
+}
+#top{
+	color: gray;
+}
+/*us # to find each element with that ID and it will implement it there*/
+#top h1 {
+	color: green;
+	border-bottom: 5px solid darkgray;
+	padding: 10px;
+	margin: 10px;
+}
+#content {
+	background: lightblue;
+	width: 50%;
+	height:500px;
+	float: left;
+	margin: 20px;
+}
+
+#sidebar {
+	background: teal;
+	width: 30%;
+	height: 500px;
+	float: left;
+	margin: 20px;
+}
+
+/* if you write a more specific tag declarations, it will override (nested!) */
+
+.title {
+	color: darkblue;
+	text-align: center;
+}
+
+#sidebar img{
+	width: 90%;
+	margin: 5%;
+}
+/* use the . (not #) when targetting a class*/

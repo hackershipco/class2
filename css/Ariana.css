@@ -1,0 +1,64 @@
+body, html {
+	margin: 3px;
+	padding: 40px;
+	font-family: Whitney, Helvetica, Arial, sans-serif;
+	font-size: 23px
+}
+
+body {
+	background: #F0F0F0;
+}
+
+#top {
+	background: #F0F0F0;
+	color: #383838;
+}
+
+#top h1 {
+	color:#303030 ;
+	border-bottom: 3px solid #006699;
+}
+
+#content h1 {
+	font-size: 32px
+	font-family: whitney,helvetica,aria;
+}
+
+#content p {
+	font-size: 20px;
+}
+
+#sidebar {
+	background: #A0A0A0 ;
+	width: 30%;
+	height: 500px;
+	float: left;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+#content {
+	background: #708090;
+	height: 500px;
+	width: 65%;
+	float: right;
+	padding-left: 10px;
+}
+
+.title {
+	font-family: Whitney;
+}
+
+#top .header {
+	font-family: Whitney;
+}
+
+img {
+	width: 170px
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	font-size: 10px;
+}
