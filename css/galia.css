@@ -1,0 +1,45 @@
+[rule]{
+	property: value;
+}
+*/ 
+body,html{
+	margin:0px;
+	padding:0px;
+	font-family:helvetica, arial, sans-serif;
+}
+#top{
+	color: gray;
+	
+}#top h1{
+	color:green;
+	border-left: 3px solid gray;
+	border-bottom: 5px solid #C00;
+	
+}
+#top h1 small{
+	background:red;
+	
+}
+aside{
+	background: yellow;
+	width: 30%;
+	height: 500px;
+}
+
+#sidebar {
+	background: yellow;
+	width:200px;
+	height: 1200px;
+	float: left;
+	margin: 20px;
+}
+#content {
+	background: yellow;
+	width:65%;
+	height: 300px;
+	float: left;
+}
+
+#sidebar .title{
+	font-style: italic;
+}
