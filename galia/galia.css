@@ -1,0 +1,49 @@
+[rule]{
+	property: value;
+}
+*/ 
+
+body,html{
+	margin:0px;
+	padding:0px;
+	font-family:helvetica, arial, sans-serif;
+	color:#FDE792;
+}
+#top{
+	color: gray;
+	
+}
+#top h1{
+	color:#477725;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 5px solid #A9CC66;
+}
+h2{
+
+	font-family: 'Droid Serif', serif;
+	font-style: #5A1F00;
+
+}
+
+#sidebar {
+	background: yellow;
+	width:200px;
+	height: 1200px;
+	float: left;
+	margin: 20px;
+}
+#content {
+	
+	width:65%;
+	height: 300px;
+	float: left;
+	font-family: 'Droid Serif', serif;
+}
+
+#sidebar .title{
+	font-style: italic;
+}
+footer{
+	width: 100px;
+	
+}
